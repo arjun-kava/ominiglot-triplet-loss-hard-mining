@@ -1,0 +1,25 @@
+{
+    "learning_rate": 3e-3,
+    "batch_size": 64,
+    "num_epochs": 20,
+    "val_split": 0.2,
+
+    "num_channels": 64,
+    "use_batch_norm": true,
+    "bn_momentum": 0.9,
+    "margin": 0.5,
+    "embedding_size": 128,
+    "triplet_strategy": "batch_hard",
+    "squared": true,
+
+    "image_size": 105,
+    "image_channels":1,
+    "num_labels": 10,
+    "train_size": 19280,
+    "eval_size": 13180,
+
+    "num_parallel_calls": 4,
+    "save_summary_steps": 50,
+
+    "out_shape": 2
+}
